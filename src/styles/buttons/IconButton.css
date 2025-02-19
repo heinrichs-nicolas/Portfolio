@@ -1,0 +1,11 @@
+.icon-btn {
+  background-color: hsl(24.6 95% 53.1% / 0.9);
+  border-radius: 20%;
+  border: none;
+  padding: 0.4rem 1rem 0.4rem 1rem;
+  margin-right: 1rem;
+}
+.icon-btn:hover {
+  background-color: hsl(24.6 95% 53.1% / 0.6);
+  cursor: pointer;
+}

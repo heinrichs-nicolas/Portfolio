@@ -1,17 +1,18 @@
-// import Card from "./components/Card";
+import BackGround from "./components/BackGround";
+import CardLists from "./components/CardLists";
 import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <div className="parent">
+      <BackGround />
       <NavBar />
+
       <div className="container">
-        <div className="cardLists"></div>
+        <CardLists />
       </div>
-      <footer>
-        <Footer />
-      </footer>
+      <Footer />
     </div>
   );
 }

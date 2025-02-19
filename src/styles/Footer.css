@@ -1,0 +1,12 @@
+footer {
+  width: 100%;
+  padding-bottom: 0.5%;
+}
+
+.footer-content {
+  text-align: center;
+  color: white;
+}
+.footer-content > a {
+  color: white;
+}

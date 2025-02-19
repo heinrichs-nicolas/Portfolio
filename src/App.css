@@ -6,10 +6,5 @@
 
 .container {
   flex-grow: 1;
-  background-color: lightblue;
-}
-
-footer {
-  width: 100%;
-  text-align: center;
+  padding: 2% 8% 2% 8%;
 }
