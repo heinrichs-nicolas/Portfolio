@@ -7,6 +7,30 @@ footer {
   text-align: center;
   color: white;
 }
-.footer-content > a {
+.footer-content a {
   color: white;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.footer-content a:hover {
+  color: white;
+}
+
+.footer-content a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: hsl(24.6 95% 53.1% / 0.9);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.2s ease-in-out;
+}
+
+.footer-content a:hover::after {
+  transform: scaleX(1);
 }
