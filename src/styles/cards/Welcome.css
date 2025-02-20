@@ -6,7 +6,7 @@
 
 .title {
   font-size: 1rem;
-  color: deepskyblue;
+  color: rgba(0, 0, 0, 0.8);
   font-weight: 100;
   letter-spacing: 0.1rem;
   transform: translateY(0.8rem);
